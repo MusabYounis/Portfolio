@@ -20,7 +20,7 @@ html{
         width: 90%;
         height: 47%;
         left: 5%;
-        top: 15%;
+        top: 12.5%;
     }
     
 }
@@ -35,11 +35,16 @@ html{
     border-radius: 20px;
 }
 .navbar{
+    position: fixed;
+    top: 20px;
+    z-index: 999;
+    width: 100%;
+    height: 50px !important;
     display:flex;
-    justify-content:space-between;
+    justify-content:end;
     align-items:center;
     padding:20px;
-    
+    background-color: #1389f887;
 }
 
 .nav-links{
@@ -66,24 +71,12 @@ html{
 }
 @media screen and (max-width:768px){
 
-    .menu-icon{
-        display:block;
-    }
-
-    .nav-links{
-        display:none;
-        flex-direction:column;
-        position:absolute;
-        top:70px;
-        right:20px;
-        padding:20px;
-        border-radius:10px;
-        background: white;
-    }
-
-    .nav-links.show{
-        display:flex;
-    }
+.nav-links{
+    font-size: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 }
 .About img{
@@ -92,12 +85,11 @@ html{
     top: 10%;
     width: 150px;
     height: 150px;
-
 }
 @media screen and (max-width:768px){
     .About img{
         position: relative;
-        left: 38%;
+        left: 40%;
         top: 10%;
         width: 50px;
         height: 50px;
@@ -116,8 +108,262 @@ html{
         margin-top: 10px;
     }
     .About button{
-        font-size: 10px;
+        font-size: 8px;
         padding: 5px 10px;
         
     }
 }
+
+/* Education & Experience Section Styles */
+.page2{
+    background-color: #1389f8;
+    width: 75%;
+    height: 75%;
+    position: absolute;
+    left: 12.5%;
+    top: 100%;
+    border: none;
+    border-radius: 20px;
+}
+@media screen and (max-width:768px){
+    .page2{
+        width: 90%;
+        height: 47%;
+        left: 5%;
+        top: 70%;
+    }
+    
+}
+.Education{
+    background-color: white;
+    width: 90%;
+    height: 90%;
+    position: absolute;
+    left: 5%;
+    top: 5%;
+    border: none;
+    border-radius: 20px;
+}
+.Education p{
+    margin-top: -10px;
+}
+@media screen and (max-width:768px){
+    .Education h1{
+        font-size: 11px;
+        font-weight: bold;
+    }
+    .Education .bi{
+        font-size: 6px;
+    }
+     .Education h6{
+        font-size: 6px;
+        font-weight: bold;
+    }
+     .Education p{
+        font-size: 5px;
+        margin-top: -10px;
+     }
+
+    }
+/* End of Education & Experience Section Styles */
+/* Skills Section Styles */
+.page3{
+    background-color: #1389f8;
+    width: 75%;
+    height: 75%;
+    position: absolute;
+    left: 12.5%;
+    top: 187.5%;
+    border: none;
+    border-radius: 20px;
+}
+@media screen and (max-width:768px){
+    .page3{
+        width: 90%;
+        height: 47%;
+        left: 5%;
+        top: 127.5%;
+    }
+    
+}
+.Skills{
+    background-color: white;
+    width: 90%;
+    height: 90%;
+    position: absolute;
+    left: 5%;
+    top: 5%;
+    border: none;
+    border-radius: 20px;
+}
+.Skills img{
+    width: 55px;
+    height: 55px;
+    margin-top: -5px;
+}
+.Skills img:hover{
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.Skills h5{
+    margin-top: -10px;
+}
+
+@media screen and (max-width:768px){
+    .Skills h3{
+        font-size: 9px;
+        font-weight: bold;
+    }
+    .Skills h5{
+        font-size: 7px;
+        font-weight: bold;
+        margin-top: -10px;
+    }
+    .Skills img{
+        width: 30px;
+        height: 30px;
+        margin-top: -5px;
+    }
+    .Skills p{
+        font-size: 5px;
+    }
+}
+/* End of Skills Section Styles */
+/* Projects Section Styles */
+.page4{
+    background-color: #1389f8;
+    width: 75%;
+    height: 75%;
+    position: absolute;
+    left: 12.5%;
+    top: 275%;
+    border: none;
+    border-radius: 20px;
+}
+@media screen and (max-width:768px){
+    .page4{
+        width: 90%;
+        height: 47%;
+        left: 5%;
+        top: 185%;
+    }
+    
+}
+.Projects{
+    background-color: white;
+    width: 90%;
+    height: 90%;
+    position: absolute;
+    left: 5%;
+    top: 5%;
+    border: none;
+    border-radius: 20px;
+}
+.Projects  img{
+    width: 50%;
+    height: 200px;
+    border-radius: 20px;
+}
+.Projects img:hover{
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+@keyframes popIn {
+  0% {
+    transform: scale(0.5);
+    opacity: 0;
+  }
+
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+@media screen and (max-width:768px){
+    .Projects h3{
+        font-size: 10px;
+        font-weight: bold;
+    }
+     .Projects h5{
+        font-size: 8px;
+        font-weight: bold;
+    }
+     .Projects h6{
+        font-size: 7px;
+        font-weight: bold;
+    }
+     .Projects img{
+        width: 50%;
+        height: auto;
+        border-radius: 20px;
+    }
+     .Projects p{
+        font-size: 6px;
+    }
+    .Projects .btn{
+        font-size: 8px;
+        padding: 5px 10px;
+    }
+    
+}
+.box {
+  opacity: 0;
+  transform: translateX(-100px);
+  transition: all 0.8s ease;
+}
+
+.box.show {
+  opacity: 1;
+  transform: translateX(0);
+}
+/* End of Projects Section Styles */
+/* Contact Section Styles */
+.page5{
+    background-color: #1389f8;
+    width: 75%;
+    height: 75%;
+    position: absolute;
+    left: 12.5%;
+    top: 362.5%;
+    border: none;
+    border-radius: 20px;
+}
+@media screen and (max-width:768px){
+    .page5{
+        width: 90%;
+        height: 47%;
+        left: 5%;
+        top: 242.5%;
+    }
+    
+}
+.Contact{
+    background-color: white;
+    width: 90%;
+    height: 90%;
+    position: absolute;
+    left: 5%;
+    top: 5%;
+    border: none;
+    border-radius: 20px;
+}
+@media screen and (max-width:768px){
+    .Contact h3{
+        font-size: 9px;
+        font-weight: bold;
+    }
+    .Contact .btn{
+        font-size: 8px;
+        padding: 5px 10px;
+    }
+    .Contact .icon1{
+        font-size: 13px;
+    }
+        .Contact .icon2{
+            font-size: 6px;
+        }
+    
+}
+/* End of Contact Section Styles */
