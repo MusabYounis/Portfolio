@@ -15,6 +15,45 @@ html{
     border: none;
     border-radius: 20px;
 }
+.line1{
+    background-color: #1389f8;
+    width: 0.5%;
+    height: 0.5%;
+    position: absolute;
+    left: 7%;
+    top: 93%;
+    border: none;
+    border-radius: 20px;
+    animation-name: lineAnimation1;
+    animation-duration: 5s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@media screen and (max-width:768px) {
+    .line1 {
+        left: 1%;
+        top: 64%;
+    }
+}
+@keyframes lineAnimation1 {
+    0% {
+        background-color: #1389f8;
+        width: 0%;
+    }
+    25% {
+        background-color: #1389f8;
+        width: 25%;
+    }
+    50% {
+        background-color: #1389f8;
+        width: 50%;
+    }
+    100% {
+        background-color: rgb(158, 246, 251);
+        width: 100%;
+    }
+}
 @media screen and (max-width:768px){
     .page1{
         width: 90%;
@@ -108,7 +147,7 @@ html{
         margin-top: 10px;
     }
     .About button{
-        font-size: 8px;
+        font-size: 4px;
         padding: 5px 10px;
         
     }
@@ -124,6 +163,45 @@ html{
     top: 100%;
     border: none;
     border-radius: 20px;
+}
+.line2{
+    background-color: #1389f8;
+    width: 0.5%;
+    height: 0.5%;
+    position: absolute;
+    left: 7%;
+    top: 180%;
+    border: none;
+    border-radius: 20px;
+    animation-name: lineAnimation2;
+    animation-duration: 5s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@media screen and (max-width:768px) {
+    .line2 {
+        left: 1%;
+        top: 122%;
+    }
+}
+@keyframes lineAnimation2 {
+    0% {
+        background-color: #1389f8;
+        width: 0%;
+    }
+    25% {
+        background-color: #1389f8;
+        width: 25%;
+    }
+    50% {
+        background-color: #1389f8;
+        width: 50%;
+    }
+    100% {
+        background-color: rgb(158, 246, 251);
+        width: 100%;
+    }
 }
 @media screen and (max-width:768px){
     .page2{
@@ -176,6 +254,45 @@ html{
     top: 187.5%;
     border: none;
     border-radius: 20px;
+}
+.line3{
+    background-color: #1389f8;
+    width: 0.5%;
+    height: 0.5%;
+    position: absolute;
+    left: 7%;
+    top: 267.5%;
+    border: none;
+    border-radius: 20px;
+    animation-name: lineAnimation3;
+    animation-duration: 5s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@media screen and (max-width:768px) {
+    .line3 {
+        left: 1%;
+        top: 179.5%;
+    }
+}
+@keyframes lineAnimation3 {
+    0% {
+        background-color: #1389f8;
+        width: 0%;
+    }
+    25% {
+        background-color: #1389f8;
+        width: 25%;
+    }
+    50% {
+        background-color: #1389f8;
+        width: 50%;
+    }
+    100% {
+        background-color: rgb(158, 246, 251);
+        width: 100%;
+    }
 }
 @media screen and (max-width:768px){
     .page3{
@@ -241,6 +358,45 @@ html{
     border: none;
     border-radius: 20px;
 }
+.line4{
+    background-color: #1389f8;
+    width: 0.5%;
+    height: 0.5%;
+    position: absolute;
+    left: 7%;
+    top: 355%;
+    border: none;
+    border-radius: 20px;
+    animation-name: lineAnimation4;
+    animation-duration: 5s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@media screen and (max-width:768px) {
+    .line4 {
+        left: 1%;
+        top: 237%;
+    }
+}
+@keyframes lineAnimation4 {
+    0% {
+        background-color: #1389f8;
+        width: 0%;
+    }
+    25% {
+        background-color: #1389f8;
+        width: 25%;
+    }
+    50% {
+        background-color: #1389f8;
+        width: 50%;
+    }
+    100% {
+        background-color: rgb(158, 246, 251);
+        width: 100%;
+    }
+}
 @media screen and (max-width:768px){
     .page4{
         width: 90%;
@@ -303,7 +459,7 @@ html{
         font-size: 6px;
     }
     .Projects .btn{
-        font-size: 8px;
+        font-size: 4px;
         padding: 5px 10px;
     }
     
@@ -323,7 +479,7 @@ html{
 .page5{
     background-color: #1389f8;
     width: 75%;
-    height: 75%;
+    height: 80%;
     position: absolute;
     left: 12.5%;
     top: 362.5%;
@@ -351,18 +507,18 @@ html{
 }
 @media screen and (max-width:768px){
     .Contact h3{
-        font-size: 9px;
+        font-size: 7px;
         font-weight: bold;
     }
     .Contact .btn{
-        font-size: 8px;
+        font-size: 4px;
         padding: 5px 10px;
     }
     .Contact .icon1{
-        font-size: 13px;
+        font-size: 8px;
     }
         .Contact .icon2{
-            font-size: 6px;
+            font-size: 3px;
         }
     
 }
