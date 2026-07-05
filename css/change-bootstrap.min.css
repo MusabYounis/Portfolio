@@ -174,6 +174,7 @@ html,body {
     }
 
 /* Main */
+/* Start navbar */
 .navbar {
     position: fixed;
     top: 20px;
@@ -185,7 +186,7 @@ html,body {
     justify-content: end;
     align-items: center;
     padding: 20px;
-    background-color: #9BA5C9;
+    background-color: #9ba5c9b0;
     border: solid 1px #9BA5C9;
     border-radius: 20px;
 }
@@ -232,7 +233,18 @@ html,body {
         visibility: hidden;
     }
 }
+/* End navbar */
+.box {
+    opacity: 0;
+    transform: translateX(-100px);
+    transition: all 0.8s ease;
+}
 
+    .box.show {
+        opacity: 1;
+        transform: translateX(0);
+    }
+/* Start about-me  */
     .about-me {
         width: 100%;
         position: absolute;
@@ -332,7 +344,7 @@ html,body {
     .about-me .img1 {
         position: absolute;
         right: 0%;
-        top: 198%;
+        top: 140%;
         height: auto;
         width: 60%;
     }
@@ -340,9 +352,91 @@ html,body {
     .about-me .img2 {
         position: absolute;
         right: 7%;
-        top: 198%;
+        top: 140%;
         height: auto;
         width: 30%;
         animation: persone 0.6s ease-out;
     }
 }
+/* End about-me  */
+/* Start Education-Experience  */
+.Education-Experience {
+    position: absolute;
+    top: 130%;
+    left: 7%;
+    height: 75%;
+    background-color: #9ba5c9;
+    border: none;
+    border-radius: 30px;
+}
+.page1{
+    position: absolute;
+    top: 5%;
+    left: 3%;
+    background-color: white;
+    height: 92%;
+    width: 45%;
+}
+.page2{
+    position: absolute;
+    top: 5%;
+    left: 52%;
+    background-color: white;
+    height: 92%;
+    width: 45%;
+}
+.line{
+    position: absolute;
+    left: 49%;
+    height: 100%;
+    width: 0.1%;
+    background-color: none;
+}
+@media screen and (max-width:768px) {
+    .Education-Experience {
+        position: absolute;
+        top: 130%;
+        left: 2%;
+    }
+    .page1 {
+        position: absolute;
+        top: 5%;
+        left: 2%;
+        background-color: white;
+        height: 92%;
+        width: 48%;
+    }
+
+    .page2 {
+        position: absolute;
+        top: 5%;
+        left: 50%;
+        background-color: white;
+        height: 92%;
+        width: 48%;
+    }
+    .line {
+        position: absolute;
+        left: 46%;
+        height: 100%;
+        width: 0.1%;
+        background-color: none;
+    }
+    .f1{
+        font-size: 20px !important;
+    }
+    .f2{
+        font-size: 9px !important;
+        
+    }
+    .f3{
+        font-size: 8px !important;
+        font-weight: bold;
+        
+    }
+    .f4{
+        font-size: 7px !important;
+        
+    }
+}
+    /* End Education-Experience  */
