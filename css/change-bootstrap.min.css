@@ -385,13 +385,6 @@ html,body {
     height: 92%;
     width: 45%;
 }
-.line{
-    position: absolute;
-    left: 49%;
-    height: 100%;
-    width: 0.1%;
-    background-color: none;
-}
 @media screen and (max-width:768px) {
     .Education-Experience {
         position: absolute;
@@ -414,13 +407,6 @@ html,body {
         background-color: white;
         height: 92%;
         width: 48%;
-    }
-    .line {
-        position: absolute;
-        left: 46%;
-        height: 100%;
-        width: 0.1%;
-        background-color: none;
     }
     .f1{
         font-size: 20px !important;
