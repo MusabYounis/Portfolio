@@ -7,7 +7,6 @@
 
 html,body {
     background: #fff;
-    
 }
 
 /* Splash */
@@ -146,33 +145,6 @@ html,body {
         content: "...";
     }
 }
-
-/* ENTER */
-.enter {
-    margin-top: 30px;
-    font-size: 10px;
-    font-weight: 500;
-    color: #999;
-    opacity: 0;
-    transform: translateY(20px);
-    filter: blur(10px);
-    cursor: pointer;
-    transition: all 0.5s ease;
-    border: 1px solid #999;
-    padding: 10px 20px;
-}
-
-    .enter.show {
-        opacity: 1;
-        transform: translateY(0);
-        filter: blur(0);
-    }
-
-    .enter:hover {
-        background: #999;
-        color: #fff;
-    }
-
 /* Main */
 /* Start navbar */
 .navbar {
@@ -363,7 +335,7 @@ html,body {
 .Education-Experience {
     position: absolute;
     top: 130%;
-    left: 7%;
+    left: 3%;
     height: 75%;
     background-color: #9ba5c9;
     border: none;
@@ -389,7 +361,7 @@ html,body {
     .Education-Experience {
         position: absolute;
         top: 130%;
-        left: 2%;
+        left: 10%;
     }
     .page1 {
         position: absolute;
@@ -426,3 +398,87 @@ html,body {
     }
 }
     /* End Education-Experience  */
+/* Start Skills  */
+.Skills {
+    position: absolute;
+    top: 150%;
+}
+.Skills img{
+    width: 100%;
+    height: 50%;
+}
+@media screen and (max-width:768px) {
+    .Skills {
+        position: absolute;
+        top: 120%;
+    }
+}
+    /* End Skills  */
+    /* Start Projects  */
+    .Projects {
+        position: absolute;
+        top: 320%;
+    }
+
+    #book {
+        width: 800px;
+        height: 500px;
+        margin: 50px auto;
+    }
+
+    .page {
+        background-color: #f8f9fa;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 30px;
+        border: solid 2px black;
+    }
+
+    @media screen and (max-width:768px) {
+        .Projects {
+            position: absolute;
+            top: 650%;
+        }
+
+    }
+    /* End Projects  */
+    .form {
+        position: absolute;
+        top: 130%;
+    }
+
+    @media screen and (max-width:768px) {
+        .form {
+            position: absolute;
+            top: 100%;
+        }
+    }
+    /* Start Contact  */
+    .Contact {
+        position: absolute;
+        top: 200%;
+        background-color: #dc3545ab;
+        color: white;
+    }
+
+        .Contact a {
+            text-decoration: none;
+            color: white;
+        }
+
+            .Contact a:hover {
+                color: darkgrey;
+            }
+@media screen and (max-width:768px) {
+    .Contact {
+        position: absolute;
+        top: 160%;
+        left: 0%;
+    }
+    .Contact .row{
+        font-size: 12px;
+    }
+}
+    /* End Contact  */
