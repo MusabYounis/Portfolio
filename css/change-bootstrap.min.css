@@ -7,6 +7,7 @@
 
 html,body {
     background: #fff;
+
 }
 
 /* Splash */
@@ -335,7 +336,7 @@ html,body {
 .Education-Experience {
     position: absolute;
     top: 130%;
-    left: 3%;
+    left: 7%;
     height: 75%;
     background-color: #9ba5c9;
     border: none;
@@ -361,7 +362,7 @@ html,body {
     .Education-Experience {
         position: absolute;
         top: 130%;
-        left: 10%;
+        left: 8%;
     }
     .page1 {
         position: absolute;
@@ -440,6 +441,7 @@ html,body {
         .Projects {
             position: absolute;
             top: 650%;
+            left: -7%;
         }
 
     }
@@ -475,7 +477,6 @@ html,body {
     .Contact {
         position: absolute;
         top: 160%;
-        left: 0%;
     }
     .Contact .row{
         font-size: 12px;
